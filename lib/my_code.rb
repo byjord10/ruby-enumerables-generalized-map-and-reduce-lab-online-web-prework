@@ -1,5 +1,5 @@
 def map(b)
-  new = [1, 2, 3, -9]
+  new = []
   n = 0
   while n < b.length do
     new.push(yield(b[n]))
