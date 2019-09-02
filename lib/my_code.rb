@@ -1,8 +1,8 @@
-def my_own_map(array)
+def map(b)
   array = [1, 2, 3, -9]
   n = 0
-  while n < array.length do
-    array.push(yield(array[n]))
+  while n < b.length do
+    array.push(yield(b[n]))
     n += 1
   end
   array
